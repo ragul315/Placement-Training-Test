@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example with Bootstrap and Font Awesome</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .footer {
+            background-color: rgb(23, 70, 97);
+            color: white;
+            padding: 20px 0;
+            align-items: baseline;
+            justify-content: end;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        .footer .column h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .footer .column ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .footer .column ul li {
+            margin-bottom: 10px;
+        }
+        .footer .column ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .footer .column ul li a:hover {
+            text-decoration: underline;
+        }
+        .footer .social-icons a {
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        .footer .social-icons a:hover {
+            color: #ccc;
+        }
+        .footer .bottom-bar {
+            text-align: center;
+            padding: 10px 0;
+            border-top: 1px solid #444;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>App development</li>
+                        <li>Web development</li>
+                        <li>DevOps</li>
+                        <li>Web designing</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 column">
+                    <h3>Social</h3>
+                    <div class="social-icons">
+                        <a href="#" style="font-size: medium;"><i class="fab fa-linkedin"> </i> Linkedin</a><br>
+                        <a href="#" style="font-size: medium;"><i class="fab fa-twitter"></i> Twitter</a><br>
+                        <a href="#" style="font-size: medium;"><i class="fab fa-github"></i> Github </a><br>
+                        <a href="#" style="font-size: medium;"><i class="fab fa-instagram"></i> Instagram</a><br>
+                    </div>
+                </div>
+                <div class="col-md-3 column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 column">
+                    <h3>Address</h3>
+                    <p>Palani, Tamil Nadu</p>
+                    <p>Mobile: +91-9600765169</p>
+                    <p>Email: j.ragul315@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
